@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "outDir": "lib",
+    "module": "esnext",
+    "jsx": "preserve",
+    "lib": ["dom", "es2017"],
+    "moduleResolution": "node",
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "resolveJsonModule": true,
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin",
+        "alwaysShowRuleFailuresAsWarnings": false,
+        "ignoreDefinitionFiles": true,
+        "suppressWhileTypeErrorsPresent": false,
+        "mockTypeScriptVersion": false,
+        "configFile": "tslint.yaml"
+      }
+    ]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["app", "build", "**/*.js"]
+}
