@@ -4,9 +4,9 @@
 .DS_Store
 *.SUBLIME-PROJECT
 *.SUBLIME-WORKSPACE
-node_modules
-lib
-examples
+/node_modules
+/lib
+/examples
 
 # =========================
 # Operating System Files

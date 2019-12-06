@@ -3,7 +3,7 @@
     "target": "esnext",
     "outDir": "lib",
     "module": "esnext",
-    "jsx": "preserve",
+    "jsx": "react",
     "lib": ["dom", "es2017"],
     "moduleResolution": "node",
     "declaration": true,
@@ -25,6 +25,6 @@
       }
     ]
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*"],
   "exclude": ["app", "build", "**/*.js"]
 }
